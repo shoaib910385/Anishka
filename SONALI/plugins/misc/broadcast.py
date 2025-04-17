@@ -5,7 +5,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
 from SONALI import app
-from SONALI.misc import SUDOERS
+from SONALI.misc import OWNER
 from SONALI.utils.database import (
     get_active_chats,
     get_authuser_names,
