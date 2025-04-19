@@ -29,9 +29,9 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://i.ibb.co/6RJBxjbg/photo-2025-04-19-05-51-11-7494904388935221256.jpg",
-"https://i.ibb.co/6RJBxjbg/photo-2025-04-19-05-51-11-7494904388935221256.jpg",
-"https://i.ibb.co/6RJBxjbg/photo-2025-04-19-05-51-11-7494904388935221256.jpg",
+"https://files.catbox.moe/kuh6so.mp4",
+"https://files.catbox.moe/kuh6so.mp4",
+"https://files.catbox.moe/kuh6so.mp4",
     
 ]
 
