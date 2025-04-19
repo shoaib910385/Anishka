@@ -43,7 +43,7 @@ InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/EMPERORMUSIC_P
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://files.catbox.moe/5musfg.mp4",
+        photo="https://files.catbox.moe/56piz6.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
