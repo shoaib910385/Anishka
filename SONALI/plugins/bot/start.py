@@ -33,9 +33,10 @@ GREET = [
 ]
 
 NEXI_VID = [
-"https://files.catbox.moe/27vpyz.mp4",
-"https://files.catbox.moe/27vpyz.mp4",
-"https://files.catbox.moe/27vpyz.mp4",
+"https://files.catbox.moe/swi3g2.mp4",
+"https://files.catbox.moe/bn4l9i.mp4",
+"https://files.catbox.moe/flivv7.mp4",
+"https://files.catbox.moe/u6rer6.mp4",
     
 ]
 
