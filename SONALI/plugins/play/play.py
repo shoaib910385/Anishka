@@ -30,6 +30,7 @@ from config import BANNED_USERS, lyrical
     filters.command(
         [
             "play",
+            "lay",
             "vplay",
             "cplay",
             "cvplay",
@@ -38,7 +39,7 @@ from config import BANNED_USERS, lyrical
             "cplayforce",
             "cvplayforce",
         ],
-        prefixes=["/", "!", "."],
+        prefixes=["/", "!", "p", "."],
     )
     & filters.group
     & ~BANNED_USERS
