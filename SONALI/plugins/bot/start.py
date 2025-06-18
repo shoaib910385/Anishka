@@ -28,6 +28,10 @@ from strings import get_string
 
 #--------------------------
 
+GREET = [
+    "💞", "🥂", "🔍", "🧪", "🥂", "⚡️", "🔥",
+]
+
 NEXI_VID = [
 "https://files.catbox.moe/27vpyz.mp4",
 "https://files.catbox.moe/27vpyz.mp4",
@@ -40,6 +44,41 @@ NEXI_VID = [
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
+
+    loading_1 = await message.reply_text(random.choice(GREET))
+    await add_served_user(message.from_user.id)
+    
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>ʜєʏ ʙᴧʙʏ! 💞</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ.❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ..❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ...❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ....❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ.....❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>sᴛᴧʀᴛɪηɢ❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>sᴛᴧʀᴛɪηɢ.❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>sᴛᴧʀᴛɪηɢ..❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>sᴛᴧʀᴛɪηɢ...❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>sᴛᴧʀᴛɪηɢ....❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>sᴛᴧʀᴛɪηɢ.....❤️‍🔥</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.edit_text("<b>sᴛᴧʀᴛed❤️‍🔥!🥀</b>")
+    await asyncio.sleep(0.1)
+    await loading_1.delete()
+    
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
