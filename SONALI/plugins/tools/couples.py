@@ -15,7 +15,7 @@ POLICE = [
     [
         InlineKeyboardButton(
             text="||Mʏ Lᴏʀᴅ||",
-            url=f"https://t.me/KINGAURAXD",
+            url=f"https://t.me/II_onlyZerox_II",
         ),
     ],
 ]
