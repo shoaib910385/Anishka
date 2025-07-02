@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text=" 𝗝ᴏɪɴ 🤌 ", url="https://t.me/lll_DRX_NETWORK_lll",
+                text="˹ 𝗝ᴏɪɴ  ˼", url="https://t.me/Quantum_not_for_everyone",
             ),
             InlineKeyboardButton(
-                text="🌸 𝗦ᴜᴘᴘᴏʀᴛ 🌸", url="https://t.me/DRX_SUPPORTCHAT",
+                text="˹ 𝗦ᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/Quantum_Discussion_group",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="𝗝ᴏɪɴ 🤌", url="https://t.me/lll_DRX_NETWORK_lll",
+                text="˹ 𝗝ᴏɪɴ ˼", url="https://t.me/Quantum_not_for_everyone",
             ),
             InlineKeyboardButton(
-                text="🌸 𝗦ᴜᴘᴘᴏʀᴛ 🌸", url="https://t.me/DRX_SUPPORTCHAT",
+                text="˹ 𝗦ᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/Quantum_Discussion_group",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
